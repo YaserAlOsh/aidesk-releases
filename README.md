@@ -9,7 +9,7 @@ AIDesk is a desktop application that lets you access ChatGPT and other AI (LLM) 
 
 It is basically dedicated AI brower, enhanced with built-in tools for managing, exporting, and combining AI conversations.
 
-Instead of opening multiple tabs, accounts, and copied prompts, MultiChat gives you one interface for many AI providers.
+Instead of opening multiple tabs, accounts, and copied prompts, it gives you one interface for many AI providers.
 
 Note: Under development. Some features may not work, especially across different AI providers. Not everything is tested.
 
