@@ -46,7 +46,7 @@ Note: Under development. Some features may not work, especially across different
   * Only loads supported AI platforms
   * No distractions, no tracking clutter
 * **More!**
-  * Customizable themes, Terminal Integration, Image processing, Automatic workflow, and more.
+  * Customizable themes, Terminal Integration, Image processing, Automatic Nodes Workflow, and more.
 
 ---
 
@@ -83,7 +83,7 @@ These are my ideas, you could probably come up with more interesting ways. Plus,
 ## Platform
 
 * Desktop application (Electron)
-* Windows support (macOS/Linux planned if applicable)
+* Windows support (macOS/Linux planned)
 
 ## Status
 
