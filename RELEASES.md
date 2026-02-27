@@ -1,3 +1,10 @@
+## v0.1.27 - 2026-02-27
+
+- 0.1.27
+- critical projects context fix: refreshing
+- version fix
+
+
 ## v0.1.26 - 2026-02-27
 
 - version fix
