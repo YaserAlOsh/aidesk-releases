@@ -1,3 +1,11 @@
+## v0.1.24 - 2026-02-27
+
+- Bump version to 0.1.24
+- workflow fix
+- terminal fixes
+- Vault improvement. Folders. Artifacts edits. Dynamic loading of drivers
+
+
 ## v0.1.22 - 2026-02-24
 
 - fix cp command
