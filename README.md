@@ -42,11 +42,16 @@ Note: Under development. Some features may not work, especially across different
   * Store all your chat histories here, or import files (pdf or text files)
   * Supports local RAG.
   * Under development: Add support for artifacts and optimize the vectorization.
+* **Workflow**
+  * Define a workflow with nodes of prompt input and output.
+  * Link execution from one AI to another.
+  * Example: Prompt multiple AIs, take all outputs, and supply them to another AI to summarize or critique, and do it as many times as needed.
+  * Note: Experimental and may not work for all providers
 * **AI-focused browser environment**
   * Only loads supported AI platforms
   * No distractions, no tracking clutter
 * **More!**
-  * Customizable themes, Terminal Integration, Image processing, Automatic Nodes Workflow, and more.
+  * Dark and light modes, Terminal Integration, Image processing, Audio Import, and more.
 
 ---
 
@@ -68,7 +73,7 @@ These are my ideas, you could probably come up with more interesting ways. Plus,
   - Link your terminal to the chat window. (It is safe, only terminal context and history are shared, but running commands from the AI requires some attention)
 - Researchers
   - Maintain contexts from your papers/research work.
-  - Easily produce python code and run it
+  - Easily produce artifacts like latex, html, or python code and run it
   - If you research AI, maybe use the tool in your initial experiments.
 - Students
   - Cross-reference AI results with each other.
