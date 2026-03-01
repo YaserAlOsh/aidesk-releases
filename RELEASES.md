@@ -1,3 +1,13 @@
+## v0.1.29 - 2026-03-01
+
+- 0.1.29
+- 0.1.28
+- performance optimization, fix chatgpt injection
+- 0.1.27
+- critical projects context fix: refreshing
+- version fix
+
+
 ## v0.1.30 - 2026-03-01
 
 - 0.1.30
