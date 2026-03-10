@@ -1,3 +1,17 @@
+## v0.1.31 - 2026-03-10
+
+- 0.1.31
+- Added color theme. Improved vault collections. Added prompttoolbar hide toggle.
+- 0.1.30
+- source to prompt fixes. artifacts parsing improvement
+- 0.1.29
+- 0.1.28
+- performance optimization, fix chatgpt injection
+- 0.1.27
+- critical projects context fix: refreshing
+- version fix
+
+
 ## v0.1.29 - 2026-03-01
 
 - 0.1.29
