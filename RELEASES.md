@@ -1,3 +1,11 @@
+## v0.1.33 - 2026-03-10
+
+- fix workflow file
+- fix workflow file
+- fix workflow file
+- Vault Updates: - Easily add full chat/file context into prompt toolbar - Limit number of items for performance Color styles: More colors and slightly better tuning Persist expanded folders in projects contexts Slightly optimize artifacts extraction step improve github workflow notes
+
+
 ## v0.1.32 - 2026-03-10
 
 - color update
