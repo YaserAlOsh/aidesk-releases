@@ -1,7 +1,8 @@
 # aidesk-releases
 
 
-<img width="1920" height="970" alt="image" src="https://github.com/user-attachments/assets/12252487-cb08-4de7-a222-f7db01ab9157" />
+<img width="1920" height="1031" alt="image" src="https://github.com/user-attachments/assets/b16a41ce-eea4-4361-b68a-cb18347ee8b8" />
+
 
 *A unified workspace for AI conversations*
 
@@ -41,6 +42,7 @@ Note: Under development. Some features may not work, especially across different
 * **Vault system**
   * Store all your chat histories here, or import files (pdf or text files)
   * Supports local RAG.
+  * Allows selection of items/collections for the RAG operation.
   * Under development: Add support for artifacts and optimize the vectorization.
 * **Workflow**
   * Define a workflow with nodes of prompt input and output.
@@ -66,10 +68,11 @@ If you regularly work with multiple AI systems, try this tool and let me know yo
 
 #### Potential Use:
 
-These are my ideas, you could probably come up with more interesting ways. Plus, there are some limitations discussesd below.
+These are my ideas, you could probably come up with more interesting ways. Plus, there are some limitations discussed below.
 
 - Developers
-  - Import your project context directly into multiple AIs
+  - Extract and run code artifacts for quick tasks, protypting, visualizations, etc.
+  - Import your project context directly into multiple AIs.
   - Link your terminal to the chat window. (It is safe, only terminal context and history are shared, but running commands from the AI requires some attention)
 - Researchers
   - Maintain contexts from your papers/research work.
@@ -81,8 +84,9 @@ These are my ideas, you could probably come up with more interesting ways. Plus,
   - See which AI explains best for you.
 - General users:
   - Store useful AI results (only text supported for now)
-  - Switch from one AI to another if your limits are reached (f you are not a paid subscriber etc.)
+  - Easily switch from one AI to another if your limits are reached (f you are not a paid subscriber etc.) and export/import chat contexts.
 
+Note: To make use of any included context (attachment, project context, images, RAG results) you must use the app prompt toolbar and fill button (top) not the AI's default prompt field.
 ---
 
 ## Platform
@@ -109,6 +113,5 @@ Please report bugs here and I will try to fix them as soon as possbile !
 * Claude artifacts are not supported. Mostly because it has its own artifacts panel. Will be fixed in upcoming update, hopefully.
 * Some features are incomplete, such as sound effects (mostly do not work yet) and \custom commands (from the settings)
 * Broadcasting (injecting) long text from the prompt is slow.
-* ChatGPT injection loses new lines formatting. Investigating this right now. Trying to find a balanced approach (fast and correct)
 * Importing PDFs into the Vault is slow, mostly because the AI embedder is running on CPU.
 * Support for Ollama (or local AI) is under develpment. It might work if you run ollama on localhost:3000 but extracting text may not work correctly.
