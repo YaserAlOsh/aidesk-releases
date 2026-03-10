@@ -1,3 +1,9 @@
+## v0.1.32 - 2026-03-10
+
+- color update
+- Vault Updates: - Sorting option - UseForRag filter (specify which items or collections are used when RAG is ON) - Provider Icons, rename, open in chat, and more improvements Optimized Sidebar icons loading Fixed SourceToPrompt color formatting.
+
+
 ## v0.1.31 - 2026-03-10
 
 - 0.1.31
