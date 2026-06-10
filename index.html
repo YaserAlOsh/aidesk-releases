@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AIDesk - One desk for every AI conversation</title>
+    <meta
+      name="description"
+      content="AIDesk is a local-first desktop workspace for using, saving, searching, and syncing AI conversations across providers."
+    />
+    <meta name="theme-color" content="#102033" />
+    <meta property="og:title" content="AIDesk" />
+    <meta
+      property="og:description"
+      content="Run multiple AI providers, save important chats, build a searchable vault, and sync your workspace when you are ready."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/aidesk-og.png" />
+    <link rel="icon" href="assets/aidesk-icon.png" />
+    <link rel="apple-touch-icon" href="assets/aidesk-icon.png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="AIDesk home">
+        <img src="assets/aidesk-mark.png" alt="" />
+        <span>AIDesk</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+        <a href="#features">Features</a>
+        <a href="#sync">Cloud Sync</a>
+        <a href="#marketplace">Marketplace</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#download">Download</a>
+      </nav>
+
+      <a class="header-cta" href="https://github.com/YaserAlOsh/aidesk-releases/releases/latest">
+        Download
+      </a>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-backdrop" aria-hidden="true"></div>
+        <div class="hero-content">
+          <div class="hero-copy">
+            <p class="eyebrow">Local-first AI workspace for Windows and Linux</p>
+            <h1 id="hero-title">AIDesk</h1>
+            <p class="hero-lede">
+              One focused desk for ChatGPT, Claude, Gemini, DeepSeek, Perplexity, local models,
+              saved chats, citations, artifacts, files, and the prompts worth keeping.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="https://github.com/YaserAlOsh/aidesk-releases/releases/latest">
+                Download latest
+              </a>
+              <a class="button button-secondary" href="#pricing">See free limits</a>
+            </div>
+            <div class="hero-facts" aria-label="Product highlights">
+              <span>Free beta includes 50 saved chats</span>
+              <span>Bring your own AI accounts</span>
+              <span>Cloud sync for paid users</span>
+            </div>
+          </div>
+
+          <div class="product-stage" aria-label="AIDesk product preview">
+            <div class="window-shell">
+              <div class="window-bar">
+                <span></span>
+                <span></span>
+                <span></span>
+                <strong>AIDesk workspace</strong>
+              </div>
+              <div class="app-preview">
+                <aside class="preview-sidebar">
+                  <img src="assets/aidesk-icon.png" alt="" />
+                  <button class="active" type="button">Chat</button>
+                  <button type="button">Vault</button>
+                  <button type="button">Tools</button>
+                  <button type="button">Sync</button>
+                </aside>
+                <div class="preview-main">
+                  <div class="tab-row">
+                    <span>ChatGPT</span>
+                    <span>Claude</span>
+                    <span>Gemini</span>
+                    <span>Local</span>
+                  </div>
+                  <div class="conversation-grid">
+                    <div class="chat-pane">
+                      <div class="message user">Compare these answers and save the best one.</div>
+                      <div class="message ai">
+                        Draft saved to Vault. Citations and provider output are ready for review.
+                      </div>
+                      <div class="prompt-box">
+                        <span>Broadcast prompt</span>
+                        <strong>4 providers</strong>
+                      </div>
+                    </div>
+                    <div class="vault-pane">
+                      <div class="pane-title">Unified memory</div>
+                      <div class="vault-item">
+                        <span></span>
+                        <p>Market research summary</p>
+                      </div>
+                      <div class="vault-item">
+                        <span></span>
+                        <p>Product launch prompt</p>
+                      </div>
+                      <div class="vault-item">
+                        <span></span>
+                        <p>Verified output proof</p>
+                      </div>
+                      <div class="sync-badge">Cloud sync ready</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="signal-strip" aria-label="AIDesk capabilities">
+        <div>
+          <strong>Multi-provider</strong>
+          <span>Work across the AI services you already use.</span>
+        </div>
+        <div>
+          <strong>Searchable vault</strong>
+          <span>Keep your useful chats without digging through browser tabs.</span>
+        </div>
+        <div>
+          <strong>Paid cloud layer</strong>
+          <span>Sync and web viewing become the business model.</span>
+        </div>
+      </section>
+
+      <section id="features" class="section section-light">
+        <div class="section-heading">
+          <p class="eyebrow">What it does</p>
+          <h2>A practical workspace for people who already live inside AI chats.</h2>
+          <p>
+            AIDesk keeps the daily workflow fast: open providers side by side, send prompts,
+            collect useful answers, and turn scattered conversations into a local knowledge base.
+          </p>
+        </div>
+
+        <div class="feature-grid">
+          <article>
+            <span class="feature-dot dot-blue"></span>
+            <h3>Provider sessions</h3>
+            <p>Launch and organize multiple AI providers in one desktop workspace.</p>
+          </article>
+          <article>
+            <span class="feature-dot dot-orange"></span>
+            <h3>Prompt broadcasting</h3>
+            <p>Send one prompt to selected providers and compare the useful parts faster.</p>
+          </article>
+          <article>
+            <span class="feature-dot dot-green"></span>
+            <h3>Saved chat vault</h3>
+            <p>Save important messages, search them later, and export when you need to move.</p>
+          </article>
+          <article>
+            <span class="feature-dot dot-cyan"></span>
+            <h3>Citations and artifacts</h3>
+            <p>Pull out links, generated files, code blocks, reports, and reusable outputs.</p>
+          </article>
+          <article>
+            <span class="feature-dot dot-indigo"></span>
+            <h3>Workspace tools</h3>
+            <p>Bring files, source context, media trimming, OCR, and terminal workflows closer to chat.</p>
+          </article>
+          <article>
+            <span class="feature-dot dot-rose"></span>
+            <h3>Local-first control</h3>
+            <p>Use AIDesk without giving up the habit-forming local workflow that makes it valuable.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="sync" class="section split-section">
+        <div class="split-copy">
+          <p class="eyebrow">Cloud Sync</p>
+          <h2>Free locally. Paid when your workspace needs to follow you.</h2>
+          <p>
+            The clean monetization line is cloud infrastructure: account storage, multi-device state,
+            encrypted backups, and a web viewer for checking your unified chats from a phone.
+          </p>
+          <ul class="check-list">
+            <li>Desktop app remains useful before payment.</li>
+            <li>Free tier can stop at 50 saved chats.</li>
+            <li>Paid users unlock higher limits and cloud sync.</li>
+            <li>Mobile web access is view-only first, which keeps scope controlled.</li>
+          </ul>
+        </div>
+        <div class="phone-preview" aria-label="Mobile web viewer preview">
+          <div class="phone-frame">
+            <div class="phone-top"></div>
+            <div class="phone-screen">
+              <div class="mobile-header">
+                <img src="assets/aidesk-mark.png" alt="" />
+                <span>Unified Chats</span>
+              </div>
+              <div class="mobile-search">
+                <span>Search vault</span>
+              </div>
+              <div class="mobile-chat">
+                <strong>Claude</strong>
+                <p>Saved product strategy answer</p>
+              </div>
+              <div class="mobile-chat">
+                <strong>ChatGPT</strong>
+                <p>Landing page copy draft</p>
+              </div>
+              <div class="mobile-chat">
+                <strong>Perplexity</strong>
+                <p>Research with citations</p>
+              </div>
+              <div class="view-only">View only</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="marketplace" class="section marketplace-section">
+        <div class="section-heading align-left">
+          <p class="eyebrow">Prompt Marketplace</p>
+          <h2>AIDesk Verified can become the trust layer for prompts.</h2>
+          <p>
+            Sellers publish proof, not the full secret. Buyers see the output, partial prompt signals,
+            votes, and an AIDesk verification that the hidden prompt produced the shown result inside AIDesk.
+          </p>
+        </div>
+
+        <div class="marketplace-layout">
+          <div class="prompt-card">
+            <div class="verified-line">
+              <span></span>
+              AIDesk Verified
+            </div>
+            <h3>Investor memo generator</h3>
+            <p class="blurred-text">Prompt hidden until purchase. Visible preview: company, market, risk, moat...</p>
+            <div class="output-proof">
+              <strong>Output proof</strong>
+              <p>Concise memo with assumptions, citations, and a decision summary.</p>
+            </div>
+            <div class="vote-row">
+              <span>128 upvotes</span>
+              <span>$9</span>
+            </div>
+          </div>
+
+          <div class="marketplace-notes">
+            <article>
+              <h3>Validation first</h3>
+              <p>Hash the hidden prompt, store the output proof, and show that the pair was created in AIDesk.</p>
+            </article>
+            <article>
+              <h3>Marketplace later</h3>
+              <p>Start with verified share cards, then add buying, payouts, reporting, and seller profiles.</p>
+            </article>
+            <article>
+              <h3>Useful even before payments</h3>
+              <p>Verified prompts create public proof and distribution before the full commerce layer exists.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="pricing" class="section section-light">
+        <div class="section-heading">
+          <p class="eyebrow">Pricing shape</p>
+          <h2>Adoption stays open. Expensive and valuable features become paid.</h2>
+          <p>
+            Pricing can change later, but the product boundary should be clear from day one.
+          </p>
+        </div>
+
+        <div class="pricing-grid">
+          <article class="price-card">
+            <div>
+              <p class="plan-label">Free beta</p>
+              <h3>$0</h3>
+              <p>For trying AIDesk locally and building the habit.</p>
+            </div>
+            <ul>
+              <li>50 saved chats</li>
+              <li>Local app workspace</li>
+              <li>Bring your own AI provider accounts</li>
+              <li>Manual export</li>
+              <li>No cloud sync</li>
+            </ul>
+            <a class="button button-secondary" href="#download">Download free</a>
+          </article>
+
+          <article class="price-card featured-price">
+            <div>
+              <p class="plan-label">Paid</p>
+              <h3>Price TBA</h3>
+              <p>For users who want AIDesk as their durable AI memory layer.</p>
+            </div>
+            <ul>
+              <li>Higher saved chat limits</li>
+              <li>Cloud sync when available</li>
+              <li>Unified web viewer</li>
+              <li>Encrypted backup roadmap</li>
+              <li>Marketplace seller tools later</li>
+            </ul>
+            <a class="button button-primary" href="mailto:yaseralosh@outlook.com?subject=AIDesk%20Pro%20access">
+              Request Pro access
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <section id="download" class="download-section">
+        <div>
+          <p class="eyebrow">Download</p>
+          <h2>Start with the desktop app.</h2>
+          <p>
+            AIDesk is distributed through GitHub Releases while the product is still moving fast.
+            Download the latest installer or portable build from the release page.
+          </p>
+        </div>
+        <div class="download-actions">
+          <a class="button button-primary" href="https://github.com/YaserAlOsh/aidesk-releases/releases/latest">
+            Download latest release
+          </a>
+          <a class="button button-secondary" href="mailto:yaseralosh@outlook.com?subject=AIDesk%20feedback">
+            Send feedback
+          </a>
+        </div>
+      </section>
+
+      <section class="section faq-section">
+        <div class="section-heading">
+          <p class="eyebrow">FAQ</p>
+          <h2>Clear answers before people install.</h2>
+        </div>
+        <div class="faq-list">
+          <details>
+            <summary>Does AIDesk include AI credits?</summary>
+            <p>No. AIDesk is designed around the AI services, accounts, and local models you already use.</p>
+          </details>
+          <details>
+            <summary>What happens after 50 saved chats?</summary>
+            <p>The free beta can keep the app usable while asking heavy users to upgrade for larger saved history and sync.</p>
+          </details>
+          <details>
+            <summary>Will cloud sync be required?</summary>
+            <p>No. The desktop app is local-first. Sync is the paid convenience layer for users who want continuity across devices.</p>
+          </details>
+          <details>
+            <summary>What does AIDesk Verified mean?</summary>
+            <p>It means AIDesk can confirm that a hidden prompt and visible output were generated as a matched pair inside AIDesk.</p>
+          </details>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <img src="assets/aidesk-mark.png" alt="" />
+        <span>AIDesk</span>
+      </div>
+      <p>Copyright <span data-year></span> AIDesk. Built for people who use AI seriously.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
