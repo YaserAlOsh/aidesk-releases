@@ -68,7 +68,7 @@ If you regularly work with multiple AI systems, try this tool and let me know yo
 
 #### Potential Use:
 
-These are my ideas, you could probably come up with more interesting ways. Plus, there are some limitations discussed below.
+These are my ideas, you could probably come up with more interesting ways. There are some limitations discussed below.
 
 - Developers
   - Extract and run code artifacts for quick tasks, protypting, visualizations, etc.
@@ -86,7 +86,7 @@ These are my ideas, you could probably come up with more interesting ways. Plus,
   - Store useful AI results (only text supported for now)
   - Easily switch from one AI to another if your limits are reached (f you are not a paid subscriber etc.) and export/import chat contexts.
 
-Note: To make use of any included context (attachment, project context, images, RAG results) you must use the app prompt toolbar and fill button (top) not the AI's default prompt field.
+#### Note: To make use of any included context (attachment, project context, images, RAG results) you must use the app prompt toolbar and fill button (top) not the AI's default prompt field.
 ---
 
 ## Platform
@@ -108,10 +108,10 @@ Please report bugs here and I will try to fix them as soon as possbile !
 * The app uses electron, so it may eat up your ram. Preferably, close your ChatGPT (and others) active tabs in your regular browser. You only need to login in this browser once.
 * Image processing is still limited. You can broadcast images to multiple AIs, but not all AI chatbots accept it gracefully, and it is slow.
 * Persistent attachments support pdf, pptx, docs, and other text files but not images.
-* No audio or video inputs yet.
+* ~~No audio or video inputs yet~~. (supported now)
 * The automatic workflow (Nodes) has some issues with some AI provideres (notably, Grok). it is also untested on long running tasks (many nodes)
-* Claude artifacts are not supported. Mostly because it has its own artifacts panel. Will be fixed in upcoming update, hopefully.
+* ~~Claude artifacts are not supported. Mostly because it has its own artifacts panel. Will be fixed in upcoming update, hopefully~~. Claude Artifacts are extracted when exporting or saving to Vault.
 * Some features are incomplete, such as sound effects (mostly do not work yet) and \custom commands (from the settings)
-* Broadcasting (injecting) long text from the prompt is slow.
+* ~~Broadcasting (injecting) long text from the prompt is slow~~. Has been considerably improved.
 * Importing PDFs into the Vault is slow, mostly because the AI embedder is running on CPU.
 * Support for Ollama (or local AI) is under develpment. It might work if you run ollama on localhost:3000 but extracting text may not work correctly.
