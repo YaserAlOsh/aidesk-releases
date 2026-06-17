@@ -1,3 +1,12 @@
+## main - 2026-06-17
+
+- updated release
+- updated release
+- SourceToPrompt and dashboard improvements
+- Sidebar improvements
+- build job fix
+
+
 ## v0.1.33 - 2026-03-10
 
 - fix workflow file
