@@ -1,3 +1,12 @@
+## v0.1.36 - 2026-06-20
+
+- updated release
+- updated release
+- SourceToPrompt and dashboard improvements
+- Sidebar improvements
+- build job fix
+
+
 ## main - 2026-06-17
 
 - updated release
